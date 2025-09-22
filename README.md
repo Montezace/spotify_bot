@@ -14,9 +14,9 @@ A Python automation bot that allows users to download songs from Spotify for **p
 ## 🛠️ Tech Stack
 
 - Python 3.x
-- Selenium / Requests / BeautifulSoup (depending on implementation)
+- Requests, BeautifulSoup
 - tqdm (for progress bars)
-- ffmpeg (for file conversion, optional)
+- ffmpeg (for file conversion)
 
 ## 🚀 How to Use
 
