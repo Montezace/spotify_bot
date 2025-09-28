@@ -12,7 +12,7 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
     url = update.message.text.strip()
 
     if "open.spotify.com/" in url:
-        await update.message.reply_text("Fetching the track info....")
+        await update.message.reply_text("Fetching the track info...")
         track_name = get_track_name(url)
 
         if track_name:
