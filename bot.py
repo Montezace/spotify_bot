@@ -25,7 +25,7 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
             else:
                 await update.message.reply_text("Failed to download.")
         else:
-             await update.message.reply_text("Invalid Spotify URL")
+             await update.message.reply_text("Invalid Spotify URL.")
     else:
          await update.message.reply_text("Please Send a Valid URL")
 
